@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.payingmode"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:5:5-78
+12-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.READ_SMS" />
+13-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:6:5-66
+13-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+14-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:7:5-69
+14-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:7:22-67
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:10:5-81
+15-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:11:5-80
+16-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:11:22-77
+17
+18    <application
+18-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:8:5-22:19
+19        android:allowBackup="true"
+19-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:9:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:10:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:11:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:12:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:13:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:14:9-40
+28        <activity android:name="com.example.payingmode.MainActivity" >
+28-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:15:9-21:20
+28-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:15:19-47
+29            <intent-filter>
+29-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:16:13-20:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:17:17-69
+30-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:17:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:19:17-77
+32-->C:\Users\sai\AndroidStudioProjects\PayingMode2\app\src\main\AndroidManifest.xml:19:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:14:9-17:47
+36            android:name="com.paytm.pgsdk.PaytmPGActivity"
+36-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:15:13-59
+37            android:screenOrientation="portrait"
+37-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:16:13-49
+38            android:theme="@style/AppTheme" />
+38-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:17:13-44
+39
+40        <service
+40-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:19:9-21:40
+41            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+41-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:20:13-73
+42            android:exported="false" />
+42-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:21:13-37
+43        <service
+43-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:22:9-24:40
+44            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+44-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:23:13-72
+45            android:exported="false" />
+45-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:24:13-37
+46        <service
+46-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:25:9-28:39
+47            android:name="com.paytm.pgsdk.easypay.utils.EasypayLoaderService"
+47-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:26:13-78
+48            android:enabled="true"
+48-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:27:13-35
+49            android:exported="true" />
+49-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:28:13-36
+50        <service
+50-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:29:9-32:39
+51            android:name="com.paytm.pgsdk.easypay.utils.AnalyticsService"
+51-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:30:13-74
+52            android:enabled="true"
+52-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:31:13-35
+53            android:exported="true" />
+53-->[com.paytm:pgplussdk:1.4.4] C:\Users\sai\.gradle\caches\transforms-2\files-2.1\49540f4fe9683aabf3b3c300388e30d0\jetified-pgplussdk-1.4.4\AndroidManifest.xml:32:13-36
+54    </application>
+55
+56</manifest>
